@@ -12,7 +12,6 @@ def handle_events():
         elif event.type == SDL_KEYDOWN and event.key == SDLK_ESCAPE:
             running = False
 
-
 def reset_world():
     global world
     global boy
